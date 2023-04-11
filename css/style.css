@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../lib/fontgoogle/Montserrat-VariableFont_wght.ttf');
+}
+
+/*===================================*\
+#RESET
+\*===================================*/
+* {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body {
+    line-height: 1.8;
+}
+a,
+img,
+span,
+input,
+button,
+svg.fa-icon { display: block; }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+input,
+button {
+    background: none;
+    border: none;
+    font: inherit;
+}
+input {
+    width: 100%;
+    outline: none;
+}
+button { cursor: pointer; }
+svg.fa-icon { pointer-events: none; }
+address { font-style: normal; }
+ul { list-style: none; }
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+.header {
+    padding: 80px 0;
+    background-color: #0C55E9;
+}
+.service {
+    padding: 80px 0;
+    text-align: center;
+}
+.icon-serv {
+    background-color: #0C55E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 1.5rem auto;
+    color: #FFF;
+}
+.question {
+    padding: 80px 0;
+    background-color: #0C55E9;
+}
+.icon-que {
+    color: #0C55E9;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+.pricing {
+    padding: 80px 0;
+}
+.price {
+    font-size: 5rem;
+    font-weight: 300;
+}
+footer {
+    border-top: 1px solid #DDD;
+    padding: 40px 0;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.copyright {
+    border-top: 1px solid #DDD;
+}
